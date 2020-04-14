@@ -1,19 +1,6 @@
-<h1>All Books</h1>
+<h1> {{ book.title }} </h1>
 
-<ul>
-    <li>
-      <a href="/book/{{ book.id }}">{{ book.title }}</a>
-    </li>
-    <li>
-      <a href="/book/{{ book.id }}">{{ book.num_pages }}</a>
-    </li>
-    <li>
-      <a href="/book/{{ book.id }}">{{ book.author }}</a>
-    </li>
-    <li>
-      <a href="/book/{{ book.id }}">{{ book.date_published }}</a>
-    </li>
-    <li>
-      <a href="/book/{{ book.id }}">{{ book.tags }}</a>
-    </li>
-</ul>
+<p>Number of pages: {{ book.num_pages }}</p>
+<p>Publish date: {{ book.date_published }}</p>
+<p>Author: {{ book.author }}</p>
+<p>Tags: {{ book.tags }}</p>
