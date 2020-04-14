@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'book_site.urls'
+ROOT_URLCONF = 'books_site.urls'
 
 TEMPLATES = [
     {
