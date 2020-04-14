@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'book_site.wsgi.application'
+WSGI_APPLICATION = 'books_site.wsgi.application'
 
 
 # Database

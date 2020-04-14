@@ -8,7 +8,7 @@ from django.utils import timezone
 
 class Author(models.Model):
     name = models.CharField(max_length=200)
-    birthdate = models.DateTimeField('date published')
+    birth_date = models.DateTimeField('date published')
     
 
     def __str__(self):
